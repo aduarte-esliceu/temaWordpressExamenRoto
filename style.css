@@ -11,4 +11,25 @@ Tags: bootstrap
 
 ul {
     list-style: none;
+
+      
 }
+
+    
+.info a {
+    text-decoration: none;
+    color: red;
+    display: flex;
+    
+    justify-content: space-around;
+    border: solid 2px whitesmoke;
+            box-shadow: inset  0px 0px 20px red, 0 0 5em red, 0 0 5px red, 3px 2px 10px red, 0 0 5px red, 0 0 3px darkred;
+            text-shadow: 0px 0px 10px white, 3px 4px 25px red, 0 0 40px white;
+            margin: 2% 5%;
+    }
+    
+    .info a:hover {
+        background-color: red;
+        color: white;
+    
+    }
